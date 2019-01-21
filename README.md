@@ -58,17 +58,17 @@ def count(request):
 
 ## Home
 
-![home](.\image\home.JPG)
+![home](https://github.com/myeongs14/LikeLion_Manage_Report_Word_Count/blob/master/image/home.JPG)
 
 
 
 ## About
 
-![home](.\image\about.JPG)
+![about](https://github.com/myeongs14/LikeLion_Manage_Report_Word_Count/blob/master/image/about.JPG)
 
 
 
 ## Result
 
-![home](.\image\result.JPG)
+![result](https://github.com/myeongs14/LikeLion_Manage_Report_Word_Count/blob/master/image/result.JPG)
 
