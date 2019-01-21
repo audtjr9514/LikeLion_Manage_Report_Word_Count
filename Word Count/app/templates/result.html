@@ -56,11 +56,11 @@
         <div class="starter-template">
 
             <h1>당신이 입력한 텍스트는<br>
-                 공백을 제외한 {{textlength}}개의 글자와<br>
-                 공백을 포함한 {{totaltextlength}}개의 글자와<br>
-                 {{total}}개의 단어로 구성되어 있습니다.<br></h1>
+                공백을 제외한 {{textlength}}개의 글자와<br>
+                공백을 포함한 {{totaltextlength}}개의 글자와<br>
+                {{total}}개의 단어로 구성되어 있습니다.<br></h1>
 
-                 <a href="{% url 'home' %}"><button type="button" class="btn btn-light">다시 하기</button></a><br><br>
+            <a href="{% url 'home' %}"><button type="button" class="btn btn-light">다시 하기</button></a><br><br>
             <div class="card">
                 <div class="card-header">
                     글자 구성
@@ -70,15 +70,15 @@
                         <h2> 입력한 테스트 : </h2>
                         {{full}} <br><br>
                         <h3> 단어 키워드 : </h3>
-                            {% for word, howmany in dictionary %}
-                            <div class="row">
-                                <div class="col-sm">
-                                    {{word}}
-                                </div>
-                                <div class="col-sm">
-                                    {{howmany}}
-                                </div>
+                        {% for word, howmany in dictionary %}
+                        <div class="row">
+                            <div class="col-sm">
+                                {{word}}
                             </div>
+                            <div class="col-sm">
+                                {{howmany}}
+                            </div>
+                        </div>
                         {% endfor %}
                     </blockquote>
                 </div>
