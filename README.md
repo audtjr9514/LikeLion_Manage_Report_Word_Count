@@ -58,17 +58,17 @@ def count(request):
 
 ## Home
 
-![home](D:\3. 멋쟁이 사자처럼\2019년 7기 운영진\운영진 교육\Word Count\image\home.JPG)
+![home](.\image\home.JPG)
 
 
 
 ## About
 
-![home](D:\3. 멋쟁이 사자처럼\2019년 7기 운영진\운영진 교육\Word Count\image\about.JPG)
+![home](.\image\about.JPG)
 
 
 
 ## Result
 
-![home](D:\3. 멋쟁이 사자처럼\2019년 7기 운영진\운영진 교육\Word Count\image\result.JPG)
+![home](.\image\result.JPG)
 
